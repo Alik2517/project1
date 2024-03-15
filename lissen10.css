@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+                  /* Секция №1 */
+
+.welcome{
+    background: rgb(157, 97, 255);
+    padding: 30px 180px 168px 131px;
+}
+
+/* .welcome_header{
+
+}
+
+.welcome_nav{
+} */
+
+.welcome_header-li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 60px;
+    
+    }
+
+.welcome_ul{
+    list-style-type: none;
+}
+
+.welcome_header-li:hover{
+    transform: scale(2.5);
+    transition: 0.5s;
+}
+
+
+
+.welcome_a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.welcome_img{
+    margin-top: 100px;
+    width: 436px;
+    height: 411px;
+    display: inline-block;}
+
+
+.welcome_title{
+    display: inline-block;}
+
+
+.text_hover:hover{
+    transform: scale(1.2);
+    transition: 0.5s;}
+
+.welcome_title-text{
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: center;
+    position: absolute;
+    width: 590px;
+    height: 154px;
+    left: 742px;
+    right: 180px;
+    top: 201px;
+    /* bottom: 373px; */
+    /* display: flex; */
+    /* flex-direction: row;
+    align-items: center; */}
+
+.welcome_text{
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    position: absolute;
+    width: 320px;
+    height: 43px;
+    left: 877px;
+    right: 315px;
+    top: 477px;
+    bottom: 208px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+
+
+
+                      /* СЕКЦИЯ №2 */
+
+.abaut_me{
+    padding: 91px 71px 77px 68px;
+    background-color: #fff;
+}
+
+.abaut_me-div-h1{
+    width: 1373px;
+    height: 365px;
+    left: 68px;
+    right: 71px;
+    top: 91px;
+    bottom: 307px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.abaut_me-h1{
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: center;}
+
+.abaut_me-div-a{
+    width: 184px;
+height: 29px;
+margin-left: 1257px;
+top: 657px;
+bottom: 77px;
+display: flex;
+flex-direction: row;
+/* align-items: ; */
+}
+
+.abaut_me-a1{
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.hover_a:hover{
+    color: #ffa000; /* Меняем цвет текста */
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hero{
+    background-color: rgb(157, 97, 255);
+    padding: 95px 77px 33px 106px;}
+
+.img_content-trans{
+    display: inline-block;}
+
+.data{
+    display: inline-block;
+    margin-left: 60px;}
+
+
+.data-text{
+    color: rgba(0, 0, 0, 0.48);
+    font-family: Gentium Book Basic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;}
+
+.title-text{
+    color: rgb(0, 0, 0);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+margin-top: 3px;
+margin-bottom: 24px;}
+
+.content-text{
+    color: rgb(0, 0, 0);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;}
+
+.row{
+    height: 3px;
+    background-color: rgb(68, 111, 179);
+    margin: 65px 0px;}
+
+.read{
+    text-align: right;
+margin-top: 95px;}
+
+.read_1{
+    color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;}
+
+.sect{
+    padding: 71px 283px 93px 281px;
+    margin-top: 1px;
+    display: inline-block;
+    text-align: center;}
+
+.abc{
+    width: 948px;
+    height: 118px;
+    left: 281px;
+    right: 283px;
+    top: 71px;
+    bottom: 228px;
+    align-items: center;}
+
+.abc-text{
+    color: rgb(0, 0, 0);
+font-family: Fira Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 43px;}
+
+.form-abc{
+    margin-top: 71px;
+
+}
+
+.input-abc{
+    width: 521px;
+    height: 61px;
+    left: 399px;
+    right: 592px;
+    top: 263px;
+    bottom: 93px;
+    align-items: center;
+    color: rgb(95, 95, 95);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    background-color: rgb(95, 95, 95, 0.35);
+    border: none;}
+
+.button-abc{
+    width: 275px;
+    height: 61px;
+    left: 920px;
+    right: 317px;
+    top: 263px;
+    bottom: 93px;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+    margin-left: -5px;
+    border: none;}
+
+
+
+
+.end{
+    background-color: rgb(157, 97, 255);
+    padding: 86px 222px 84px 61px; }   
+
+
+.end-text1{
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;}
+
+ 
+    .end_nav{
+        margin-top: 57px;}
+
+    .end_li{
+        list-style-type: none;
+        display: inline-block;}
+
+    .end_li:not(:first-child){
+        margin-left: 46px;}
+
+    .end_li:hover{
+        transform: scale(1.5);
+        border: 1px solid rgb(248, 5, 5);
+        transition-duration: 0.5s; 
+        background-color: rgb(46, 228, 10);}
+
+    .end_li:active{
+        transform: scale(1.5);
+        border: 1px solid rgb(248, 5, 5);
+        background-color: gold;}

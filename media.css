@@ -1,0 +1,33 @@
+@media(max-width: 1400px){
+
+}
+
+
+@media(max-width: 900px){
+    .welcome_title-text{
+        font-size: 4vw;}
+
+    .welcome_ul{
+        text-align: center;
+    }
+    .welcome_content{
+        text-align: center;
+    }
+
+    img{
+        width: 10vw;
+        height: 10vw;
+        margin: 20px 0px 0px 0px;
+
+    }
+}
+
+
+@media(max-width: 600px){
+    
+}
+
+
+@media(max-width: 380px){
+    
+}
