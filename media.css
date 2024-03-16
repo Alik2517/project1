@@ -1,33 +1,496 @@
 @media(max-width: 1400px){
+    .welcome_title-text{
+        font-size: 4vw;
+    }
 
+    .welcome{
+        background: rgb(157, 97, 255);
+        padding: 30px 100px 100px 70px;
+    }
+    .welcome_ul{
+        text-align: center;
+
+    }
+    .welcome_header-li{
+        margin-right: 60px;
+        display: inline-block;
+    }
+    .welcome_content{
+        text-align: center;
+        padding: 0;
+    }
+    img{
+        width: 30vw;
+        height: 30vw;
+        margin: 20px 0px 0px 0px;
+        display: block;
+    }
+    .welcome_img{
+        margin-top: 0px;
+        padding: 0;
+        width: 30vw;
+        height: 30vw;
+    }
+    .welcome_title-text{
+        text-align: center;
+        font-size: 4vw;
+        display: block;
+        position: static;
+        width: 60vw;
+        margin-bottom: 70px;
+    }
+    .welcome_text{
+        text-align: center;
+        font-size: 3vw;
+        display: block;
+        position: static;
+        width: 30vw;
+        margin: 0 auto;
+    }
+    .abaut_me-h1{
+        text-align: center;
+        font-size: 5vw;
+        display: block;
+        position: static;
+        width: 70VW;
+        line-height: 40px;
+    }
+    .abaut_me-div-a{
+        width: 10vw;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .abaut_me-a1{
+        width: 10vw;
+    }
+
+    .abaut_me{
+        padding: 31px 30px 30px 30px;
+    }
+    #hero{
+        padding: 60px 0px 33px 0px;
+
+    }
+    .img_center{
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+
+    }
+    .img_content-trans{
+       width: 50vw;
+       text-align: center;
+        margin-left: 25vw;
+       display: flex;
+    }
+    .img_content-trans1{
+        width: 50vw;
+        height: auto;
+  
+        display: flex;
+    }
+    .sect{
+        padding: 20px 30px 50px 30px;
+    }
+    .abc{
+        width: 80vw;
+        height: auto;
+        align-items: center;
+    }
+    .abc-text{
+        font-size: 4vw;
+        line-height: 40px;
+    }
+    .input-abc{
+        display: block;
+    }
+    .button-abc{
+        display: block;
+        margin-left: 0;
+        margin-top: 5vw;
+    }
+    .end{
+        padding: 86px 100px;
+    }
+    .form-abc{
+        align-items: center;
+    }   
+    .end-text1{
+        font-size: 4vw;
+    }
+    .img_end{
+        font-size: 4vw;
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .welcome_title-text{
+        font-size: 4vw;}
+    .welcome{
+        background: rgb(157, 97, 255);
+        padding: 30px 100px 100px 70px;
+    }
+    .welcome_ul{
+        text-align: center;
+    }
+    .welcome_header-li{
+        margin-right: 60px;
+        display: inline-block;
+    }
+    .welcome_content{
+        text-align: center;
+        padding: 0;
+    }
+    img{
+        width: 30vw;
+        height: 30vw;
+        margin: 20px 0px 0px 0px;
+        display: block;
+    }
+    .welcome_img{
+        margin-top: 0px;
+        padding: 0;
+        width: 30vw;
+        height: 30vw;
+    }
+    .welcome_title-text{
+        text-align: center;
+        font-size: 4vw;
+        display: block;
+        position: static;
+        width: 60vw;
+        margin-bottom: 70px;
+    }
+    .welcome_text{
+        text-align: center;
+        font-size: 3vw;
+        display: block;
+        position: static;
+        width: 30vw;
+        margin: 0 auto;
+    }
+    .abaut_me-h1{
+        text-align: center;
+        font-size: 5vw;
+        display: block;
+        position: static;
+        width: 70VW;
+        line-height: 40px;
+    }
+    .abaut_me-div-a{
+        width: 10vw;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .abaut_me-a1{
+        width: 10vw;
+    }
+    .abaut_me{
+        padding: 31px 30px 30px 30px;
+    }
+    #hero{
+        padding: 60px 0px 33px 0px;
+    }
+    .img_center{
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    .img_content-trans{
+       width: 50vw;
+       text-align: center;
+        margin-left: 25vw;
+       display: flex;
+    }
+    .img_content-trans1{
+        width: 50vw;
+        height: auto;
+        display: flex;
+    }
+    .sect{
+        padding: 20px 30px 50px 30px;
+    }
+    .abc{
+        width: 80vw;
+        height: auto;
+        align-items: center;
+    }
+    .abc-text{
+        font-size: 4vw;
+        line-height: 40px;
+    }
+    .input-abc{
+        display: block;
+    }
+    .button-abc{
+        display: block;
+        margin-left: 0;
+        margin-top: 5vw;
+    }
+    .end{
+        padding: 86px 100px;}
+    .form-abc{
+        align-items: center;
+    }   
+    .end-text1{
+        font-size: 4vw;
+    }
+    .img_end{
+        font-size: 4vw;
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
 }
 
 
 @media(max-width: 900px){
     .welcome_title-text{
         font-size: 4vw;}
-
+    .welcome{
+        background: rgb(157, 97, 255);
+        padding: 30px 100px 100px 70px;
+    }
     .welcome_ul{
         text-align: center;
     }
+    .welcome_header-li{
+        margin-right: 60px;
+        display: inline-block;
+    }
     .welcome_content{
         text-align: center;
+        padding: 0;
     }
-
     img{
-        width: 10vw;
-        height: 10vw;
+        width: 30vw;
+        height: 30vw;
         margin: 20px 0px 0px 0px;
+        display: block;
+    }
+    .welcome_img{
+        margin-top: 0px;
+        padding: 0;
+        width: 30vw;
+        height: 30vw;
+    }
+    .welcome_title-text{
+        text-align: center;
+        font-size: 4vw;
+        display: block;
+        position: static;
+        width: 60vw;
+        margin-bottom: 70px;
+    }
+    .welcome_text{
+        text-align: center;
+        font-size: 3vw;
+        display: block;
+        position: static;
+        width: 30vw;
+        margin: 0 auto;
+    }
+    .abaut_me-h1{
+        text-align: center;
+        font-size: 5vw;
+        display: block;
+        position: static;
+        width: 70VW;
+        line-height: 40px;
+    }
+    .abaut_me-div-a{
+        width: 10vw;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .abaut_me-a1{
+        width: 10vw;
+    }
+    .abaut_me{
+        padding: 31px 30px 30px 30px;
+    }
+    #hero{
+        padding: 60px 0px 33px 0px;
 
+    }
+    .img_center{
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    .img_content-trans{
+       width: 50vw;
+       text-align: center;
+        margin-left: 25vw;
+       display: flex;
+    }
+    .img_content-trans1{
+        width: 50vw;
+        height: auto;
+        display: flex;
+    }
+    .sect{
+        padding: 20px 30px 50px 30px;
+    }
+    .abc{
+        width: 80vw;
+        height: auto;
+        align-items: center;}
+    .abc-text{
+        font-size: 4vw;
+        line-height: 40px;
+    }
+    .input-abc{
+        display: block;
+    }
+    .button-abc{
+        display: block;
+        margin-left: 0;
+        margin-top: 5vw;
+    }
+    .end{
+        padding: 86px 100px;}
+    .form-abc{
+        align-items: center;
+    }   
+    .end-text1{
+        font-size: 4vw;
+    }
+    .img_end{
+        font-size: 4vw;
+        width: auto;
+        height: auto;
+        display: inline-block;
     }
 }
 
 
-@media(max-width: 600px){
-    
-}
+@media(max-width: 650px){
+    .welcome_title-text{
+        font-size: 4vw;}
+    .welcome{
+        background: rgb(157, 97, 255);
+        padding: 30px 100px 100px 70px;
+    }
+    .welcome_ul{
+        text-align: center;
 
+    }
+    .welcome_header-li{
+        margin-right: 20px;
+        display: inline-block;
+    }
+    .welcome_content{
+        text-align: center;
+        padding: 0;
+    }
+    img{
+        width: 30vw;
+        height: 30vw;
+        margin: 20px 0px 0px 0px;
+        display: block;
+    }
+    .welcome_img{
+        margin-top: 0px;
+        padding: 0;
+        width: 30vw;
+        height: 30vw;
+    }
+    .welcome_title-text{
+        text-align: center;
+        font-size: 4vw;
+        display: block;
+        position: static;
+        width: 60vw;
+        margin-bottom: 70px;
+    }
+    .welcome_text{
+        text-align: center;
+        font-size: 3vw;
+        display: block;
+        position: static;
+        width: 30vw;
+        margin: 0 auto;
+    }
+    .abaut_me-h1{
+        text-align: center;
+        font-size: 5vw;
+        display: block;
+        position: static;
+        width: 70VW;
+        line-height: 40px;
+    }
+    .abaut_me-div-a{
+        width: 10vw;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .abaut_me-a1{
+        width: 10vw;
+    }
+    .abaut_me{
+        padding: 31px 30px 30px 30px;
+    }
+    #hero{
+        padding: 60px 0px 33px 0px;
 
-@media(max-width: 380px){
-    
+    }
+    .img_center{
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    .img_content-trans{
+       width: 50vw;
+       text-align: center;
+        margin-left: 25vw;
+       display: flex;
+    }
+    .img_content-trans1{
+        width: 50vw;
+        height: auto;
+        display: flex;
+    }
+    .sect{
+        padding: 20px 30px 50px 30px;
+    }
+    .abc{
+        width: 80vw;
+        height: auto;
+        align-items: center;}
+    .abc-text{
+        font-size: 4vw;
+        line-height: 40px;
+    }
+    .input-abc{
+        display: block;
+    }
+    .button-abc{
+        display: block;
+        margin-left: 0;
+        margin-top: 5vw;
+    }
+    .end{
+        padding: 86px 100px;
+    }
+    .form-abc{
+        align-items: center;
+    }   
+    .end-text1{
+        font-size: 4vw;
+    }
+    .img_end{
+        font-size: 4vw;
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
 }
